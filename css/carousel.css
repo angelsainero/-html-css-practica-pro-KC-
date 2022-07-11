@@ -13,7 +13,6 @@
 }
 
 .carousel-slides {
-  width: 100vw;
   height: 35vh;
   overflow: hidden;
   scroll-behavior: smooth;
