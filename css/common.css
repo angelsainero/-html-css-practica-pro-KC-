@@ -13,13 +13,13 @@
   font-family: 'Raleway', sans-serif;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
 .main-bg {
   background-color: var(--main-brand-color-light);
   color: var(--main-text-color);
+}
+
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 920px;
 }
