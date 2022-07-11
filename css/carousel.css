@@ -37,6 +37,10 @@
   background-image: url(../images/carousel/bg-home-specials.jpg);
 }
 
+.carousel-slides .slide a {
+  text-decoration: none;
+}
+
 .carousel-slides .slide .text-content {
   padding: 10px;
   text-align: center;
