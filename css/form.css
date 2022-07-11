@@ -32,8 +32,21 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  cursor: pointer;
+  margin: 10px 0;
+  background-color: var(--main-brand-color);
+  transition: background-color .3s linear;
+}
+
 @media screen and (min-width: 768px) {
   .input-text-group {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .btn:hover {
+    background-color: var(--main-brand-color-light);
   }
 }
