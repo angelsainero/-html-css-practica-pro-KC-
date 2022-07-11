@@ -24,21 +24,38 @@ projects.html
 We separated each component in a different css file. This will be useful if we want to migrate to a framework like React.
 We also separate the iamges in different folders.
 
+## How to collaborate
+
+You have to clone this repository
+
+```
+git clone git@github.com:KeepCodingWeb13/html-css-practica.git
+```
+
+And use and local server app like [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to run the index.html in localhost.
+
+---
+
 ## Project preview
 
 We decided to create a portfolio for Shin Chan. You could take a look to the project deployed with Github pages [here](https://keepcodingweb13.github.io/html-css-practica) 🚀.
 
+---
+
 ### Homepage
 
-![homepage mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_home.png "homepage mobile")
-![homepage desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/desktop_home.png "homepage desktop")
+<img src="https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/desktop_home.png" />
+<img src="https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_home.png" width="200" />
+
+---
 
 ### Projects
 
-![Projects mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_projects.png "Projects mobile")
 ![Projects desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/desktop_projects.png "Projects desktop")
+<img src="https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_projects.png" width="200" />
+
+---
 
 ### Error
 
-![error mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_error.png "error mobile")
-![error desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/desktop_error.png "error desktop")
+<img src="https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_error.png" width="200" />
