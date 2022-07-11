@@ -1,3 +1,7 @@
+.carousel-container {
+  margin: 50px 0;
+}
+
 .carousel-links {
   display: flex;
   justify-content: center;

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/skills.css">
   <link rel="stylesheet" href="css/carousel.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -147,6 +148,64 @@
     </div>
   </section>
   <!-- End Carousel -->
+  <form class="form-container" action="/contact" method="post">
+    <div class="input-text-group">
+      <div class="form-group">
+        <label class="text-label" for="name">Nombre</label>
+        <input required type="text" id="name" name="name" placeholder="Pon tu nombre">
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="surname">Apellido</label>
+        <input placeholder="Pon tu apellido" required type="text" name="text" id="surname">
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="phone">Teléfono</label>
+        <input
+          required
+          placeholder="Número de teléfono"
+          id="phone"
+          type="tel"
+          name="phone"
+          pattern="[0-9]+"
+        >
+      </div>
+      <div class="form-group">
+        <label class="text-label" for="githubTag">Github username</label>
+        <input
+          required
+          id="githubTag"
+          type="text"
+          name="githubTag"
+          pattern="^@[^\s]+"
+          placeholder="Con este formato (@<username>)"
+        >
+      </div>
+    </div>
+    <div class="form-group">
+      <p class="text-label">¿Cómo me conociste?</p>
+      <div class="radio-group">
+        <label for="university">Universidad</label>
+        <input required type="radio" name="contact" id="university" value="university">
+      </div>
+      <div class="radio-group">
+        <label for="keepcoding">Keepcoding kick-off</label>
+        <input required type="radio" name="contact" id="keepcoding" value="keepcoding">
+      </div>
+      <div class="radio-group">
+        <label for="school">Colegio</label>
+        <input required type="radio" name="contact" id="school" value="school">
+      </div>
+      <div class="radio-group">
+        <label for="github">Github</label>
+        <input required type="radio" name="contact" id="github" value="github">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="text-label" for="moreInfo">Más información</label>
+      <textarea required name="moreInfo" id="moreInfo" placeholder="Que mas quieres saber" cols="30" rows="10"></textarea>
+    </div>
+  </form>
   <!-- Footer -->
   <footer class="footer main-bg">
     <div class="rrss">
