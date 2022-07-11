@@ -1,8 +1,6 @@
 /* footer */
 .footer {
   margin-top: auto;
-  background-color: var(--main-brand-color-light);
-  color: var(--main-text-color);
   text-align: center;
   padding: 20px;
   font-size: 1rem;
