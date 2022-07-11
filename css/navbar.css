@@ -10,7 +10,8 @@
   align-items: center;
   min-height: 75px;
   border-bottom: 1px solid var(--border-color);
-
+  background-color: var(--bg-color);
+  z-index: 1;
 }
 
 .navbar .image-container {
