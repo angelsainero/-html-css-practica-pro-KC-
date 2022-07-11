@@ -25,17 +25,37 @@
         <img src="images/shin-chan-logo.jpg" alt="Shin chan familia">
       </a>
     </div>
-    <ul class="menu">
-      <li class="list-item">
-        <a href="projects.html">Proyectos</a>
-      </li>
-      <li class="list-item">
-        <a href="#skills">Skills</a>
-      </li>
-      <li class="list-item">
-        <a href="#contacto">Contacto</a>
-      </li>
-    </ul>
+    <div class="desktop-menu">
+      <ul class="menu">
+        <li class="list-item">
+          <a href="projects.html">Proyectos</a>
+        </li>
+        <li class="list-item">
+          <a href="#skills">Skills</a>
+        </li>
+        <li class="list-item">
+          <a href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-menu">
+      <label for="hamburger-input">Menu</label>
+      <input type="checkbox" id="hamburger-input" class="burger-shower" />
+      <label id="hamburger-menu" for="hamburger-input">
+        <ul class="menu">
+          <li class="list-item">
+            <a href="projects.html">Proyectos</a>
+          </li>
+          <li class="list-item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="list-item">
+            <a href="#contacto">Contacto</a>
+          </li>
+        </ul>
+        <div class="overlay"></div>
+      </label>
+    </div>
   </nav>
   <!-- Header -->
   <header class="header">
