@@ -30,15 +30,15 @@ We decided to create a portfolio for Shin Chan. You could take a look to the pro
 
 ### Homepage
 
-![homepage mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/mobile_home.png "homepage mobile")
-![homepage desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/desktop_home.png "homepage desktop")
+![homepage mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_home.png "homepage mobile")
+![homepage desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/desktop_home.png "homepage desktop")
 
 ### Projects
 
-![Projects mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/mobile_projects.png "Projects mobile")
-![Projects desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/desktop_projects.png "Projects desktop")
+![Projects mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_projects.png "Projects mobile")
+![Projects desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/desktop_projects.png "Projects desktop")
 
 ### Error
 
-![error mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/mobile_error.png "error mobile")
-![error desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/desktop_error.png "error desktop")
+![error mobile](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/mobile_error.png "error mobile")
+![error desktop](https://raw.githubusercontent.com/KeepCodingWeb13/html-css-practica/main/images/docs/desktop_error.png "error desktop")
