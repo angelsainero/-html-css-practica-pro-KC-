@@ -1,2 +1,2 @@
 import './form';
-import './css/home.css';
+import './styles/home.scss';

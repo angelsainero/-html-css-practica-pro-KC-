@@ -1,7 +1,7 @@
-@import url('./reset.css');
-@import url('./common.css');
-@import url('./navbar.css');
-@import url('./footer.css');
+@forward './reset.scss';
+@forward './common.scss';
+@forward './navbar.scss';
+@forward './footer.scss';
 
 .header-video iframe {
   width: 100%;
