@@ -1,0 +1,112 @@
+// Comentario que no se ve en el css
+/* comentario que si sale en el css */
+
+// Variables de SASS
+// Las de CSS se pueden modificar con JS y son accesibles
+// Las de sass solo se usan en tiempo de compilado
+$mainColor: #d75893;
+
+p {
+    color: $mainColor;
+}
+
+
+/* anidamiento */
+nav {
+    ul {
+        display: flex;
+    }
+}
+
+/* propio elemento */
+nav {
+    a {
+        color: black;
+        &:hover {
+          color: $mainColor;  
+        }
+        &.active {
+            text-decoration: underline;
+        }
+    }
+}
+
+/* mixins */
+$desktop-width: 1024px;
+$tablet-width: 768px;
+@mixin tablet {
+    @media (min-width: $tablet-width) {
+        @content;
+    }
+}
+
+.nav {
+    background-color: blue;
+    @include tablet {
+        display: none;
+    }
+}
+
+
+
+/* operadores */
+p {
+    font-size: (25 / 16)rem;
+    width: 600px / 960px * 100%;
+}
+
+/* funciones */
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+}
+
+p {
+    font-size: calculateRem(40px);
+}
+
+/*
+Funciones built-in
+https://sass-lang.com/documentation/modules/color#scale
+darken(#b37399, 20%);
+*/
+
+
+footer {
+    .link {
+        &:hover {
+            color: darken(#b37399, 20%);
+        }
+    }
+}
+
+.message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+%error {
+    padding: 40px;
+    color: red;
+}
+.success {
+    @extend .message;
+    @extend %error;
+    border-color: green;
+}
+
+
+/* bucles */
+@for $i from 1 through 3 {
+    .item-#{$i} {
+        width: 2em * $i;
+    }
+}
+
+@each $animal in puma, sea-slug, egret {
+    .#{$animal}-icon {
+        background: url('/images/#{$animal}.png');
+    }
+}
+
