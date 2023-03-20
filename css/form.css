@@ -43,6 +43,14 @@
   transition: background-color .3s linear;
 }
 
+.error {
+  color: var(--secondary-brand-color);
+}
+
+.error[class*="-error-message"] {
+  margin: 5px 0;
+}
+
 @media screen and (min-width: 768px) {
   .input-text-group {
     grid-template-columns: repeat(2, 1fr);

@@ -181,15 +181,17 @@
     </div>
   </section>
   <!-- End Carousel -->
-  <form class="form-container" action="/contact" method="post">
+  <form id="contactForm" class="form-container" method="post" novalidate>
     <div class="input-text-group">
       <div class="form-group">
         <label class="text-label" for="name">Nombre</label>
         <input required type="text" id="name" name="name" placeholder="Pon tu nombre">
+        <span class="name-error-message error"></span>
       </div>
       <div class="form-group">
         <label class="text-label" for="surname">Apellido</label>
-        <input placeholder="Pon tu apellido" required type="text" name="text" id="surname">
+        <input placeholder="Pon tu apellido" required type="text" name="surname" id="surname">
+        <span class="surname-error-message error"></span>
       </div>
       <div class="form-group">
         <label class="text-label" for="phone">Teléfono</label>
@@ -201,6 +203,7 @@
           name="phone"
           pattern="[0-9]+"
         >
+        <span class="phone-error-message error"></span>
       </div>
       <div class="form-group">
         <label class="text-label" for="githubTag">Github username</label>
@@ -212,13 +215,14 @@
           pattern="^@[^\s]+"
           placeholder="Con este formato (@<username>)"
         >
+        <span class="githubTag-error-message error"></span>
       </div>
     </div>
     <div class="form-group">
       <p class="text-label">¿Cómo me conociste?</p>
       <div class="radio-group">
         <label for="university">Universidad</label>
-        <input required type="radio" name="contact" id="university" value="university">
+        <input required type="radio" checked name="contact" id="university" value="university">
       </div>
       <div class="radio-group">
         <label for="keepcoding">Keepcoding kick-off</label>
@@ -232,11 +236,13 @@
         <label for="github">Github</label>
         <input required type="radio" name="contact" id="github" value="github">
       </div>
+      <div class="contact-error-message error"></div>
     </div>
 
     <div class="form-group">
       <label class="text-label" for="moreInfo">Más información</label>
       <textarea required name="moreInfo" id="moreInfo" maxlength="180" placeholder="Que mas quieres saber" cols="30" rows="10"></textarea>
+      <div class="moreInfo-error-message error"></div>
     </div>
     <div>
       <button class="btn" type="submit">Enviar</button>
@@ -264,5 +270,6 @@
     </div>
   </footer>
   <!-- End Footer -->
+  <script src="js/form/index.js" type="module"></script>
 </body>
 </html>
