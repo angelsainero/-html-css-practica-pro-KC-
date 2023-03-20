@@ -1,0 +1,23 @@
+{
+  "name": "frontend-pro",
+  "version": "1.0.0",
+  "description": "[![GitHub issues](https://img.shields.io/github/issues/KeepCodingWeb14/html-css-practica)](https://github.com/KeepCodingWeb14/html-css-practica/issues) [![GitHub stars](https://img.shields.io/github/stars/KeepCodingWeb14/html-css-practica)](https://github.com/KeepCodingWeb14/html-css-practica/stargazers)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeepCodingWeb14/html-css-practica-pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeepCodingWeb14/html-css-practica-pro/issues"
+  },
+  "homepage": "https://github.com/KeepCodingWeb14/html-css-practica-pro#readme",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
