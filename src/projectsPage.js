@@ -1,2 +1,2 @@
 import './projects';
-import './css/home.css';
+import './css/projects.css';

@@ -19,7 +19,7 @@
   <nav class="navbar">
     <div class="image-container">
       <a href="index.html">
-        <img src="images/shin-chan-logo.jpg" alt="Shin chan familia">
+        <img src="<%=require('../images/shin-chan-logo.jpg')%>" alt="Shin chan familia">
       </a>
     </div>
     <div class="desktop-menu">
@@ -60,16 +60,16 @@
       <img
         sizes="(max-width: 1400px) 100vw, 1400px"
         srcset="
-          images/header/bg-shinchan_jt8dwx_c_scale,w_200.jpg 200w,
-          images/header/bg-shinchan_jt8dwx_c_scale,w_518.jpg 518w,
-          images/header/bg-shinchan_jt8dwx_c_scale,w_734.jpg 734w,
-          images/header/bg-shinchan_jt8dwx_c_scale,w_904.jpg 904w,
-          images/header/bg-shinchan_jt8dwx_c_scale,w_1050.jpg 1050w,
-          images/header/bg-shinchan_jt8dwx_c_scale,w_1243.jpg 1243w,
-          images/header/bg-shinchan_jt8dwx_c_scale,w_1397.jpg 1397w,
-          images/header/bg-shinchan_jt8dwx_c_scale,w_1394.jpg 1394w,
-          images/header/bg-shinchan_jt8dwx_c_scale,w_1400.jpg 1400w"
-        src="images/header/bg-shinchan_jt8dwx_c_scale,w_1400.jpg"
+        <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_200.jpg')%> 200w,
+          <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_518.jpg')%> 518w,
+          <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_734.jpg')%> 734w,
+          <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_904.jpg')%> 904w,
+          <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_1050.jpg')%> 1050w,
+          <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_1243.jpg')%> 1243w,
+          <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_1397.jpg')%> 1397w,
+          <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_1394.jpg')%> 1394w,
+          <%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_1400.jpg')%> 1400w"
+        src="<%=require('../images/header/bg-shinchan_jt8dwx_c_scale,w_1400.jpg')%>"
         alt=""
       >
     </picture>
@@ -134,7 +134,7 @@
     <div class="carousel-slides">
       <div class="slide" id="slide1">
         <article>
-          <img src="images/carousel/peliculas-shin-chan.jpg" alt="Peliculas shin chan">
+          <img src="<%=require('../images/carousel/peliculas-shin-chan.jpg')%>" alt="Peliculas shin chan">
           <a href="https://shinchan.lukinternacional.com/es/24-peliculas-shin-chan" target="_blank" rel="noopener noreferrer">
             <div class="text-content main-bg">
               <h3>Peliculas</h3>
@@ -145,7 +145,7 @@
       </div>
       <div class="slide" id="slide2">
         <article class="yard-bg">
-          <img src="images/carousel/figuras-y-peluches-shin-chan.jpg" alt="Peliculas shin chan">
+          <img src="<%=require('../images/carousel/figuras-y-peluches-shin-chan.jpg')%>" alt="Peliculas shin chan">
           <a href="https://shinchan.lukinternacional.com/es/27-figuras-y-peluches-shin-chan" target="_blank" rel="noopener noreferrer">
             <div class="text-content main-bg">
               <h3>Figuras</h3>
@@ -156,7 +156,7 @@
       </div>
       <div class="slide" id="slide3">
         <article>
-          <img src="images/carousel/complementos.jpg" alt="Peliculas shin chan">
+          <img src="<%=require('../images/carousel/complementos.jpg')%>" alt="Peliculas shin chan">
           <a href="https://shinchan.lukinternacional.com/es/26-complementos" target="_blank" rel="noopener noreferrer">
             <div class="text-content main-bg">
               <h3>Complementos</h3>
