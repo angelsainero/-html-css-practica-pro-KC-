@@ -4,7 +4,9 @@
   "description": "[![GitHub issues](https://img.shields.io/github/issues/KeepCodingWeb14/html-css-practica)](https://github.com/KeepCodingWeb14/html-css-practica/issues) [![GitHub stars](https://img.shields.io/github/stars/KeepCodingWeb14/html-css-practica)](https://github.com/KeepCodingWeb14/html-css-practica/stargazers)",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "webpack:watch": "webpack --watch",
+    "webpack:serve": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,8 @@
     "style-loader": "^3.3.2",
     "typescript": "^5.0.2",
     "webpack": "^5.76.2",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
   },
   "dependencies": {
     "lodash": "^4.17.21"
